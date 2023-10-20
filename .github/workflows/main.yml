@@ -7,5 +7,5 @@ jobs:
   git_pull_and_restart:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out the code
-        uses: actions/checkout@v2
+      - name: Git Pull
+        run: git pull
