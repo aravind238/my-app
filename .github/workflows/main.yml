@@ -9,9 +9,5 @@ jobs:
     steps:
       - name: Check out the code
         uses: actions/checkout@v2
-
       - name: Git Pull
-        run: git pull
-
-      - name: Restart Server
-        run: sudo systemctl restart apache2 
+        run: git pull      
