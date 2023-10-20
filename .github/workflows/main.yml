@@ -3,3 +3,6 @@ name: Auto Git Pull and Server Restart
 on:
   push:
     branches: ['Master']
+jobs:
+  git_pull_and_restart:
+    runs-on: ubuntu-latest
